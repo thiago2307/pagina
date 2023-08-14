@@ -6,11 +6,7 @@ const EventoSchema = new Schema({
         type: String, 
         require :true
     },
-    prioridad: {
-        type: Number,
-        require :true
-    },
-    descript: {
+    cadena: {
         type: String,
         require :true
     },

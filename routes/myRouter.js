@@ -8,8 +8,6 @@ router.get('/eventos/:id', eventosController.getEventoById);
 
 router.post('/eventos', eventosController.createEvento);
 
-router.post('/eventos/:id/editar', eventosController.updateEvento);
-
 router.post('/eventos/:id/eliminar', eventosController.deleteEvento);
 
 
